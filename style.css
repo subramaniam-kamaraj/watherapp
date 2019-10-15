@@ -1,0 +1,113 @@
+body{
+    /*background-color: rgb(247, 15, 15);*/
+    background: url("https://cdn.pixabay.com/photo/2018/05/31/13/13/rain-3443977_960_720.jpg")
+  
+  }
+  
+  .container{
+    width: 800px;
+    height: 700px;
+    margin:25vh auto;
+    border-radius: 30px;
+    box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
+  }
+  
+  .header {
+    height: 10%;
+    background-color: #FF9800;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    position:relative;
+  }
+  
+  #temp, #humidity-div {
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .city-icon-holder {
+    position:absolute;
+    left: 25%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #city-name {
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  #icon {
+    width:50%;
+  }
+  
+  #main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .city-icon {
+    height: 80%;
+    width: 50%;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(147, 255, 7);
+  }
+  
+  .temperature {
+    position: absolute;
+    left: 50%;
+    top:0%;
+    text-align:center;
+    height: 40%;
+    width: 50%;
+    background-color: rgb(110, 39, 176);
+  }
+  
+  .humidity {
+    height: 40%;
+    width: 50%;
+    text-align:center;
+    position:absolute;
+    left:50%;
+    top:40%;
+    border-bottom-right-radius: 25px;
+    background-color: #E91E63;
+  }
+  
+  #search-btn {
+    width: 100px;
+    height:100px;
+    color: #eee;
+  }
+  
+  #search-txt {
+    color: red;
+    height:40px;
+    border-radius: 20px;
+    border-style:none;
+    outline:none;
+    padding-right:1px;
+    padding-left:1px;
+    text-align:center;
+  }
+  
+  .search {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+            transform:translate(-50%,-50%);
+  }
